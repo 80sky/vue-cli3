@@ -1,9 +1,7 @@
-// const glob = require("glob");
-// console.log(glob);
-module.export = {
+module.exports = {
   devServer: {
     host: "172.19.10.231",
-    port: 6699,
-    proxy: {}
+    port: 8088,
+    proxy: null
   }
 };
